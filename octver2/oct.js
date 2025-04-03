@@ -31,8 +31,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // 마우스 위치 기반으로 이미지 배치
         let rect = dropZone.getBoundingClientRect();
-        newImg.style.left = event.clientX - rect.left - 15 + "px"; 
-        newImg.style.top = event.clientY - rect.top - 15 + "px"; 
+        newImg.style.left = event.clientX - rect.left - 30 + "px";
+        newImg.style.top = event.clientY - rect.top - 30 + "px";
+        //newImg.style.left = event.clientX - rect.left - 15 + "px"; 
+        //newImg.style.top = event.clientY - rect.top - 15 + "px"; 
 
         //dropZone.appendChild(newImg);
 
@@ -46,5 +48,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
-
 
